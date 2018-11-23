@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/sorting"
+        android:title="Sorting"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_more_vert_black_24dp">
+   <menu>
+    <item android:id="@+id/most_popular"
+        android:title="Most Popular"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+    <item android:id="@+id/top_rated"
+        android:title="Top Rated"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom">
+    </item>
+       <item android:id="@+id/fav_movie"
+           android:title="Favourites"
+           android:orderInCategory="3"
+           app:showAsAction="ifRoom">
+       </item>
+   </menu>
+    </item>
+</menu>

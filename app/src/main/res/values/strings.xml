@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="image_poster">Image Poster</string>
+    <string name="NoData">Data not available.\n Please check you connection.</string>
+    <string name="item_description">Movie Poster</string>
+    <string name="trailers">Trailers</string>
+
+</resources>
