@@ -39,7 +39,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
     String img_path = "http://image.tmdb.org/t/p/w185";
     ArrayList<Trailer> mTrailerList;
     TrailerAdapter mTrailerAdapter;
-   String myKey = "91553b2aef4dee5b9438fdbb72220295";
+   String myKey = "";
     ImageView imageView ;
     TextView overview ;
     TextView releaseDate;
