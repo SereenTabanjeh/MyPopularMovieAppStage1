@@ -41,7 +41,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements MovieAdapter.MovieClickListener{
 
 
-    String myKey = "";
+    String myKey = " ";
     String CALLBACK_QUERY = "callbackQuery";
     String CALLBACK_NAMES = "callbackNames";
     String queryMovie = "popular";
